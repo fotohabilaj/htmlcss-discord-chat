@@ -1,9 +1,89 @@
 
-
-
 *
 {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+
+    img{
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        
+    
+    }
+    i{
+        color: white;
+        font-size: 25px;
+        position: relative;
+    }
+    
+    .home{
+        width: 100px;
+        height: 40px;
+        color: white;
+        font-size: 11px;
+        text-align: center;
+    }
+    .bell{
+        width: 100px;
+        height: 40px;
+        color: white;
+        font-size: 11px;
+        text-align: center;
+        
+    }
+    .pic{
+        width: 100px;
+        height: 40px;
+        color: white;
+        font-size: 11px;
+        text-align: center;
+        
+    }
+
+}
+
+footer{
+    height: 80px;
+    background-color: #2d2d35;
+    flex-shrink: 0;
+
+   
+}
+main{
+    background-color: #1c1d22;
+    overflow: auto;
+    flex-grow: 1;
+    border-top-left-radius: 15px;
+    margin-top: 5px;
+
+}
+body{
+    height: 100vh;
+    
+}
+.wrapper{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.centralwrapper{
+    display: flex;
+    flex-grow: 1;
+    background-color: rgba(255, 0, 0, 0);
+    overflow: hidden;
+}
+.sidebar{
+    width: 60px;
+    color: #0e5f0be3;
+    flex-shrink: 0;
 }
